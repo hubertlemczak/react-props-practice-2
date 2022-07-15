@@ -1,5 +1,5 @@
-function Title(props) {
-  return <h1>Welcome, {props.user}!</h1>
-}
+const Title = ({ user }) => {
+  return <h1>Welcome, {user}!</h1>;
+};
 
-export default Title
+export default Title;
